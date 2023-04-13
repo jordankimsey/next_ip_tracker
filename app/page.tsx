@@ -1,24 +1,17 @@
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
+const inter = Inter({ subsets: ['latin'] });
 
-const inter = Inter({ subsets: ['latin'] })
+import ClientComponent from '@/components/map/ClientComponent';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-red-200">
-       <p>Hello World</p>
-      </div>
+    <main className='min-h-screen'>
+      <ClientComponent/>
     </main>
-  )
+  );
 }
 
 
-//old code
-
-// import React, { useState, useEffect } from 'react';
-// import InputSection from './components/InputSection';
-// import './App.css';
-// import IpMap from './components/IpMap';
 // import axios from 'axios';
 
 // function App() {

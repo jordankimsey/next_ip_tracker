@@ -19,9 +19,10 @@ div > p {
     font-size: bold;
     color: hsl(0, 0%, 17%);
 }
+ */
 
 .leafletContainer {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
-    z-index: 11;
-} */
+    z-index: 1;
+}

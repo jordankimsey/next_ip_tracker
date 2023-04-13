@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import mainImg from '../assets/images/pattern-bg.png';
 import arrow from '../assets/images/icon-arrow.svg';
