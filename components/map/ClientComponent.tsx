@@ -48,27 +48,27 @@ const ClientComponent = () => {
   }, []);
 
   return (
-    <>
-      <div className='relative h-30v z-10'>
+    <div className='h-full w-full flex'>
+      <div className='relative h-60 z-10'>
         <div className='absolute inset-0 z-0 flex justify-center w-screen'>
           <Image
             src='/assets/images/pattern-bg.png'
             alt='background image'
             fill
           />
-          <div className='relative md:w-2/6 xs:w-11/12 flex flex-col items-center mt-14 h-full'>
+          <div className='relative md:w-2/6 w-10/12 flex flex-col items-center mt-14 h-full'>
             <Input getIpAddress={getIpAddress} />
           </div>
           {/* -bottom-14 */}
-          <div className='border rounded-xl sm:h-28 z-50 absolute mx-auto -bottom-14 sm:w-4/6'>
+          <div className='sm:h-28 z-50 absolute mx-auto -bottom-40 sm:-bottom-14 h-60 sm:w-4/6 px-3'>
             <Info ipInfo={response} />
           </div>
         </div>
       </div>
-      <div className='h-70v w-full'>
+      <div className='flex-grow h-screen'>
         <Map lat={response?.location.lat} lng={response?.location.lng} />
       </div>
-    </>
+    </div>
   );
 };
 

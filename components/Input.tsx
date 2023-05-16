@@ -10,12 +10,12 @@ const Input = ({
   return (
     <div className='flex flex-col justify-center items-center w-full'>
       <h1 className='text-2xl text-white pb-3'>IP Address Tracker</h1>
-      <div className='w-96 bg-white px-2 relative rounded-xl'>
+      <div className='w-72 md:w-96 bg-white px-2 relative rounded-xl'>
         <input
           type='text'
           value={searchIpQuery}
           onChange={(e) => setSearchIpQuery(e.target.value)}
-          className='p-2 w-full outline-none'
+          className='p-2 outline-none'
           placeholder='Search for any IP address or domain'
         />
         <button
