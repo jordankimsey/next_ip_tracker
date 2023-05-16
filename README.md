@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jordankimsey/next_ip_tracker)
-- Live Site URL: [Add live site URL here](https://next-ip-tracker-six.vercel.app/)
+- Solution URL: [Github](https://github.com/jordankimsey/next_ip_tracker)
+- Live Site URL: [Live Site](https://next-ip-tracker-six.vercel.app/)
 
 ## My process
 
